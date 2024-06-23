@@ -12,3 +12,13 @@ for laptop, key in Computers.items():
    os.append(key["OS"])
    print(Brand)
    print(os)
+
+#Q1.T1
+x=input("Enter a number: ")
+print(x)
+count=0
+n=int(x)
+while(n!=0): 
+    n //= 10
+    count+=1
+print(count)
