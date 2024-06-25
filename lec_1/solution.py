@@ -9,6 +9,18 @@ while(n!=0):
     count+=1
 print(count)
 
+#Q2.T1
+num = input("Enter: ")
+if num.isdigit():
+    num = int(num)
+    fact = 1
+    for i in range(1,num+1):
+        fact = fact*i
+    print("Factorial: ")
+    print(fact)
+else:
+    print("Enter a Valid Input !!")
+
 
 #Q3.T1
 Computers ={
@@ -22,7 +34,7 @@ print(Brand)
 print(os)
 
 
-#Leetcode
+#Leetcode.T2
 class TWONUM(object):
     def twoSum(self, nums, target):
         for i in range(0,len(nums)-1):
